@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My quote of the day</title>
+		<link
+			rel="icon"
+			type="image/png"
+			href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="wrapper" id="quote-gen-wrapper">
+			<!-- Quote -->
+			<div class="quote-text">
+				<i class="fas fa-quote-left"></i>
+				<h1 id="quote"></h1>
+			</div>
+			<!-- Author -->
+			<div class="quote-author">
+				<span id="author"></span>
+			</div>
+			<!-- Button container -->
+			<div class="button-container">
+				<button class="twitter-btn" id="twitter" title="Tweet this quote">
+					<i class="fab fa-twitter"></i>
+				</button>
+				<button id="previous-quote" title="Get a new quote">previous quote</button>
+				<button id="new-quote" title="Get a new quote">Quote</button>
+			</div>
+		</div>
+		<!-- Loader -->
+		<div id="loader" class="loader"></div>
+		<!-- Script  -->
+		<script src="script.js"></script>
+	</body>
+</html>
